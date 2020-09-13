@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@bazel/bazelisk": "^1.6.1",
     "@bazel/buildifier": "^3.4.0"
   }
 }

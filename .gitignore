@@ -1,1 +1,8 @@
+# Bazel
+bazel-bin
+bazel-out
+bazel-polyglot-example
+bazel-testlogs
+
+# Node
 node_modules

@@ -4,4 +4,5 @@ build:
 
 .PHONY: format
 format: 
-	@./scripts/format-bazel.sh --lint=fix
+	@node_modules/.bin/buildifier WORKSPACE
+	@node_modules/.bin/buildifier BUILD

@@ -1,5 +1,5 @@
 py_binary(
-    name = 'hello',
+    name = 'main',
     main = 'hello.py',
     srcs = ['hello.py'],
     deps = []

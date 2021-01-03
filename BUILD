@@ -1,6 +1,6 @@
 py_binary(
-    name = 'main',
-    main = 'hello.py',
-    srcs = ['hello.py'],
+    name = "hello_python",
+    main = "src/hello/hello.py",
+    srcs = ["src/hello/hello.py"],
     deps = []
 )

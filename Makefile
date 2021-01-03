@@ -1,6 +1,6 @@
 .PHONY: build
 build: 
-	@node_modules/.bin/bazel build
+	@node_modules/.bin/bazel build ...
 
 .PHONY: format
 format: 

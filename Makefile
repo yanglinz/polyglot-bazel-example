@@ -1,7 +1,7 @@
-.PHONE: build
+.PHONY: build
 build: 
 	@node_modules/.bin/bazel build
 
-.PHONE: format
+.PHONY: format
 format: 
 	@./scripts/format-bazel.sh --lint=fix

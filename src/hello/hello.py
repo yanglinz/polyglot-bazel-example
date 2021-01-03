@@ -4,7 +4,7 @@ import requests
 def hello_world():
     resp = requests.get("https://google.com")
     resp.raise_for_status()
-    print("Hello world!", resp.status_code)
+    return "Hello world Python!"
 
 
 if __name__ == "__main__":

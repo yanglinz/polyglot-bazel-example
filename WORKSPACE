@@ -13,6 +13,6 @@ http_archive(
 load("@rules_python//python:pip.bzl", "pip_install")
 
 pip_install(
-    name = "requirements_text",
+    name = "python_deps",
     requirements = "//:requirements.txt",
 )
